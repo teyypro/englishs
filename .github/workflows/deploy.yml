@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/${{ english }}'
+          BASE_PATH: '/english'
         run: |
           npm run build
 
